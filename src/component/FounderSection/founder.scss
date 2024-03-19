@@ -1,0 +1,52 @@
+.founder-wrapper{
+    background: 
+    #F0F0F0;
+    padding: 38px 0px 110px 0px;
+    .founder-container{
+        max-width: 1140px;
+        width: 100%;
+        margin: 0 auto;
+        .qoutes-image{
+            img{
+           width: 94px;
+           height: 64px;
+            }
+        }
+        .founder-text{
+            p{
+                font-family: "Basier Square";
+                font-size: 40px;
+                line-height: 62px;
+                color: #000000;
+               
+                 }
+                 .qaoutes-image-right{
+                    right: 0;
+                    bottom: 0px;
+                 }
+        }
+        .founder-profile{
+            img{
+                width: 98px;
+                height: 98px;
+            }
+            h5{
+                font-size: 18px;
+                font-family: "Basier Square";
+                line-height: 28px;
+                font-weight: 600;
+                padding-top: 17px;
+                margin: 0;
+            }
+            p{
+                font-family: "Basier Square";
+                font-size: 15px;
+                line-height: 24px;
+                color: #000000;
+                font-weight: 400;
+                text-transform: uppercase;
+                margin: 0;
+            }
+        }
+    }
+}

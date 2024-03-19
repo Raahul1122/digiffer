@@ -1,0 +1,51 @@
+.find-wrappper{
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 136px;
+    margin-bottom: 136px;
+    .find-container{
+        .find-card{
+            border-radius: 16px;
+            border: 1px solid rgba(0, 0, 0, 0.2);
+            transition: box-shadow 0.3s ease-in-out;
+            &:hover{
+                box-shadow: 4px 4px 49px 0px #09092836;
+
+            }
+            h1{
+                font-size: 20px;
+                font-weight: 400;
+                font-family: salsa;
+                color:#000000;
+        
+            }
+            p{
+                font-size: 16px;
+                font-weight: 400;
+                font-family: "Basier Square";
+                color:#7E7E7E;
+                line-height: 24px;
+                
+            }
+            a{
+                text-decoration: none;
+                color: #36A5D5;
+                font-family: "Infra", sans-serif;
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 24px;
+                text-align: center;
+                display: flex;
+               
+                align-items: center;
+                gap: 10px;
+              
+                margin: 0 auto;
+            }
+            .card-image{
+                border-radius: 10px 10px 0px 0px;
+                width: 100%;
+            }
+        }
+    }
+}

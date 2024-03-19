@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://db.onlinewebfonts.com/c/c0594775840e790de7d63c60a88b6f21?family=Basier+Square');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Salsa&display=swap');
+
+@import url('https://fonts.cdnfonts.com/css/infra');
+/* Specifying font families */
+body {
+  /* Use Basier Circle as the primary font family */
+  /* font-family: "Basier Square"; */
+  background: #F5F5F5;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.custom-heading-class{
+  background-image: linear-gradient(90deg, #A328FF 0%, #19DDD7 80%, #A328FF 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 44px;
+  font-weight: 400;
+  line-height: 52px;
+  font-family: salsa;
+}
+.custom-para-class{
+ 
+  color: #000000;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 31px;
+  font-family: "Basier Square";
+}
+.custom-btn {
+  background: #864DF9;
+  padding: 19px 30px;
+  border: none;
+  font-size: 15px;
+  color: #FFFFFF;
+  text-indent: 14px;
+  font-weight: 500;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  
+}
+
+

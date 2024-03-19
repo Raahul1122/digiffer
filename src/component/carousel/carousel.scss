@@ -1,0 +1,162 @@
+.slider-wrapper {
+    background: #F0F0F0;
+    padding: 75px 0px;
+
+    h1 {
+        font-size: 48px;
+        line-height: 60px;
+        background: linear-gradient(82.95deg, #A328FF 3.2%, rgba(25, 221, 215, 0.8) 54.59%, #A328FF 103.22%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+    }
+    p{
+        max-width: 742px;
+        margin: 0 auto;
+    }
+
+    .slider-content {
+        max-width: 1140px;
+        width: 100%;
+        margin: 0 auto;
+        gap: 20px;
+  
+
+        .slider-box {
+            width: 95%;
+            height: 300px;
+            background-color: #FFFFFF;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 30px;
+            margin: 0 auto;
+            border: 1px solid #00000033;
+            border-radius: 20px;
+            transition: all 0.3s ease-in;
+     
+            &.active{box-shadow: 4px 4px 49px 0px #09092836;
+               
+                
+                border-radius: 20px;
+            }
+
+            h1 {
+                font-family: Infra;
+                font-size: 20px;
+                font-weight: 500;
+                line-height: 28.72px;
+                text-align: center;
+                color: #000000;
+            }
+
+            p {
+                font-family: "Basier Square";
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 24.8px;
+                text-align: center;
+                color: #7E7E7E;
+               
+            }
+
+            a {
+                text-decoration: none;
+                color: #36A5D5;
+                font-family: 'Infra', sans-serif;
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 24px;
+                text-align: center;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 10px;
+                padding-top: 15px;
+                margin: 0 auto;
+            }
+
+            img {
+                margin: 0 auto;
+            }
+        }
+        // .slick-dots{
+        //     display: flex !important;
+        //     justify-content: center !important;
+        // }
+
+        // .slick-dots li {
+        //     display: none; // Hide all dots by default
+        // }
+
+        // .slick-dots li:nth-child(2) {
+        //     display: block; // Show only the second dot
+        //     button:before {
+        //         content: "";
+        //         width: 27px;
+        //         height: 12px;
+        //         background: red;
+        //         border-radius: 10px;
+        //     }
+        // }
+
+        // .slick-dots li:nth-child(1) {
+        //     display: block; // Show only the second dot
+        //     button:before {
+        //         content: "";
+        //         width: 27px;
+        //         height: 12px;
+        //         background: red;
+        //         border-radius: 10px;
+        //     }
+        // }
+
+        // .slick-active button {
+        //     width: 63px !important;
+        //     height: 12px;
+        //     background: #6280EC !important;
+        //     display: block;
+        //     &:before {
+        //         display: none;
+        //     }
+        // }
+        .slick-list{padding: 54px 0px;}
+.slick-prev{
+    top: 100% !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    width: 63px;
+    height: 12px;
+    background: #6280EC;
+    border-radius: 20px;
+   
+    &::before{
+        display: none;
+    }
+}
+.slick-next{
+    top: 100% !important;
+    left: 55% !important;
+    transform: translateX(-50%) !important;
+    width: 23px;
+    height: 12px;
+    background:#00000033 !important;
+    
+    border-radius: 20px;
+    @media screen and (max-width: 800px) {
+        margin-left: 20px;
+
+    }
+    @media screen and (max-width: 575px) {
+        margin-left: 38px;
+
+    }
+    &::before{
+        display: none;
+    }
+}
+
+
+    }
+}

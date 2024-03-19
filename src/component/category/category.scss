@@ -1,0 +1,46 @@
+.company-left{
+
+}
+.company-right{
+
+}
+
+.category-container{
+    margin-top: 136px;
+    margin-bottom: 136px;
+}
+
+.bluebg-section{
+background:#4E55DF ;
+min-height: 186px;
+display: flex;
+align-items: center;
+.bluebg-seciton-content{
+    max-width: 935px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+
+    h1{
+        font-size: 28px;
+        font-weight: 500;
+        font-family: 'infra';
+        text-shadow: 0px 4px #00000026;
+        color: #fff;
+
+    }
+    p{
+        font-size: 15px;
+        font-weight: 500;
+        font-family: "Basier Square";
+        text-transform: uppercase;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        gap: 9px;
+    }
+}
+
+}

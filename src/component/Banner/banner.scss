@@ -1,0 +1,225 @@
+.banner-wrapper {
+    width: 100%;
+    height: 100%;
+    // background-image: url('../../../public/assets/banner.png');
+    // background-position: bottom -105px center;
+    // background-size: 120% 133%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    min-height: 700px;
+    margin-top: 50px;
+
+    @media screen and (max-width: 1400px) {
+        min-height: 600px;
+
+    }
+    @media screen and (max-width: 757px) {
+        margin-top: 0px;
+        height: 100%;
+      }
+
+    &::before {
+        content: "";
+        position: absolute;
+        max-width: 400px;
+        width: 100%;
+        min-height: 348px;
+        left: 0;
+        background-image: url("../../../public/assets/Group\ 452.png");
+        background-repeat: no-repeat;
+        top: 0;
+        background-size: contain;
+
+        @media screen and (max-width: 1400px) {
+            max-width: 270px;
+            min-height: 270px;
+
+        }
+        @media screen and (max-width: 1100px) {
+            max-width: 204px;
+            min-height: 217px;
+
+        }
+        @media screen and (max-width: 992px) {
+          display: none;
+        }
+       
+
+    }
+
+    &::after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        max-width: 378px;
+        min-height: 302px;
+        right: 0px;
+        background-image: url("../../../public/assets/Group\ 453.png");
+        background-repeat: no-repeat;
+        background-position: right top;
+        top: 0;
+        background-size: contain;
+
+        @media screen and (max-width: 1400px) {
+            max-width: 270px;
+            min-height: 270px;
+
+        }
+        @media screen and (max-width: 1100px) {
+            max-width: 204px;
+            min-height: 217px;
+
+        }
+        @media screen and (max-width: 992px) {
+            display: none;
+          }
+
+    }
+
+    .banner-content {
+        // max-width: 802px;
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+
+        &::before {
+            content: "";
+            position: absolute;
+            max-width: 574px;
+            width: 100%;
+            min-height: 288px;
+            left: 0;
+            background-image: url("../../../public/assets/Group\ 454.png");
+            background-repeat: no-repeat;
+            top: 100%;
+            background-size: contain;
+
+            @media screen and (max-width: 1400px) {
+                max-width: 470px;
+                min-height: 270px;
+
+            }
+            @media screen and (max-width: 1100px) {
+                max-width: 370px;
+                min-height: 270px;
+
+            }
+            @media screen and (max-width: 992px) {
+                display: none;
+              }
+           
+
+        }
+
+        &::after {
+            content: "";
+            position: absolute;
+            width: 100%;
+            max-width: 433px;
+            min-height: 476px;
+            right: 0px;
+            background-image: url("../../../public/assets/Group\ 459.png");
+            background-repeat: no-repeat;
+            background-position: bottom;
+            top: 100%;
+
+            @media screen and (max-width: 1400px) {
+                max-width: 370px;
+                min-height: 402px;
+                background-size: 163%;
+
+            }
+
+            @media screen and (max-width: 1100px) {
+                max-width: 284px;
+                min-height: 253px;
+                background-size: 135%;
+                background-position: bottom right -66px;
+
+            }
+            @media screen and (max-width: 992px) {
+                display: none;
+              }
+        
+
+        }
+
+        .banner-text-wrapper {
+            max-width: 800px;
+            width: 100%;
+            margin: 0 auto;
+            position: absolute;
+            left: 50%;
+            transform: translate(-50%, -79%);
+            @media screen and (max-width: 757px) {
+                transform: none;
+                position: unset;
+              }
+
+            h1 {
+
+                font-family: salsa;
+                font-Weight: 400;
+                font-size: 60px;
+                line-height: 75px;
+                text-align: Center;
+                @media screen and (max-width: 1400px) {
+                    font-size: 50px;
+                    line-height: 65px;
+    
+                }
+
+                span {
+                    background-image: linear-gradient(90deg, #A328FF 0%, #19DDD7 80%, #A328FF 100%);
+                    background-clip: text;
+                    -webkit-background-clip: text;
+                    /* For older versions of Safari */
+                    color: transparent;
+                    padding-left: 10px;
+                }
+            }
+
+            p {
+                font-family: Basier Square;
+                text-align: center;
+                font-size: 20px;
+                font-weight: 400;
+                line-height: 28px;
+            }
+
+            
+        }
+
+    }
+
+}
+
+
+
+
+
+.logo-image-list{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border-top: 2px solid #0000001F;
+    border-bottom: 2px solid #0000001F;
+    margin-top: 80px;
+  
+    .logo-images{
+        max-width: 1440px;
+        margin: 0 auto;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 80px;
+        padding: 14px 0px;
+        flex-wrap: wrap;
+
+
+    }
+}
