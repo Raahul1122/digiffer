@@ -230,6 +230,10 @@
         gap: 80px;
         padding: 14px 0px;
         flex-wrap: wrap;
+        @media screen and (max-width: 1024px) {
+            gap: 28px;
+    
+        }
 
 
     }

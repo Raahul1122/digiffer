@@ -28,10 +28,21 @@ const Category = () => {
 
 
     <div className="bluebg-section">
-       <div className='bluebg-seciton-content px-3'>
-        <h1>See how blockchain can work for your industry</h1>
-        <p>Our Consulting <img src="/assets/pink-chevron-right.png" alt="" /></p>
+       <div className='bluebg-seciton-content'>
+        <div className='container'>
+            <div className="row align-items-center ">
+                <div className="col-md-8">
+                <h1>See how blockchain can work for your industry</h1>
+                </div>
+                <div className="col-md-4 mt-3 mt-md-0 ">
+                <p>Our Consulting <img src="/assets/pink-chevron-right.png" alt="" /></p>
+                </div>
+      
+       
        </div>
+
+            </div>
+        </div>
     </div>
     </>
   )

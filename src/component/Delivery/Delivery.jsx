@@ -24,9 +24,9 @@ function Delivery() {
 
     return (
         <>
-            <div className='container delivery-container' style={{ maxWidth: "1140px" }}>
+          <div className="delivery-wrapper">
+            <div className='container delivery-container' >
                 <div className='row'>
-
                     <div className='col-lg-6 col-md-6 '>
                         <div className='delivery-left-section'>
                             <h1>Delivering business <span>outcomes through cutting</span> -edge technology</h1>
@@ -53,6 +53,7 @@ function Delivery() {
                     </div>
                 </div>
             </div>
+          </div>
         </>
     )
 }
