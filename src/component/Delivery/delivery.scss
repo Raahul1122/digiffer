@@ -1,6 +1,11 @@
 .delivery-container{
     margin-top: 129px;
     margin-bottom: 129px;
+    @media screen and (max-width: 768px) {
+        margin-top: 40px;
+        margin-bottom: 40px;
+ 
+     }
     .delivery-left-section{
         h1{
             font-size: 44px;

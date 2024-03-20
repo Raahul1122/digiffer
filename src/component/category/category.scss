@@ -4,11 +4,33 @@
 .company-right{
 
 }
-
-.category-container{
-    margin-top: 136px;
-    margin-bottom: 136px;
+.category-wrapper{
+    position: relative;
+    &::after{
+    content: ""; 
+    position: absolute;
+    background-image: url('../../../public/assets/round.png');  
+    right: 0;
+    top: -250px;
+    width: 700px;
+    height: 481px;
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    z-index: -1;
+    }
+    .category-container{
+        margin-top: 136px;
+        margin-bottom: 136px;
+        @media screen and (max-width: 768px) {
+            margin-top: 40px;
+        margin-bottom: 40px;
+        
+            }
+    }
 }
+
 
 .bluebg-section{
 background:#4E55DF ;
@@ -22,6 +44,10 @@ align-items: center;
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
+    @media screen and (max-width: 768px) {
+     flex-direction: column;
+     align-items: flex-start;
+     }
 
     h1{
         font-size: 28px;

@@ -4,6 +4,8 @@ import Button from '../Button'
 const Category = () => {
   return (
     <>
+    <div className="category-wrapper">
+
     <div className="container category-container" >
         <div className="row">
             <div className="col-lg-6">
@@ -21,11 +23,12 @@ const Category = () => {
             </div>
         </div>
     </div>
+    </div>
 
 
 
     <div className="bluebg-section">
-       <div className='bluebg-seciton-content px-4'>
+       <div className='bluebg-seciton-content px-3'>
         <h1>See how blockchain can work for your industry</h1>
         <p>Our Consulting <img src="/assets/pink-chevron-right.png" alt="" /></p>
        </div>

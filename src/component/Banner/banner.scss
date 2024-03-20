@@ -11,6 +11,10 @@
     position: relative;
     min-height: 700px;
     margin-top: 50px;
+    background-image: url('../../../public/assets/round.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    // background-size: cover;
 
     @media screen and (max-width: 1400px) {
         min-height: 600px;
@@ -154,6 +158,9 @@
             position: absolute;
             left: 50%;
             transform: translate(-50%, -79%);
+          
+            // background-size: cover;
+
             @media screen and (max-width: 757px) {
                 transform: none;
                 position: unset;
@@ -208,6 +215,10 @@
     border-top: 2px solid #0000001F;
     border-bottom: 2px solid #0000001F;
     margin-top: 80px;
+    @media screen and (max-width: 1024px) {
+        margin-top:0px;
+
+    }
   
     .logo-images{
         max-width: 1440px;

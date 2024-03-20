@@ -27,7 +27,7 @@ function Delivery() {
             <div className='container delivery-container' style={{ maxWidth: "1140px" }}>
                 <div className='row'>
 
-                    <div className='col-lg-6'>
+                    <div className='col-lg-6 col-md-6 '>
                         <div className='delivery-left-section'>
                             <h1>Delivering business <span>outcomes through cutting</span> -edge technology</h1>
                             <p>Right now, visionary companies are coming together to transform the way their industries work with the help of Blockchain Australia Solutions. </p>
@@ -35,7 +35,7 @@ function Delivery() {
                         </div>
                     </div>
 
-                    <div className='col-lg-6'>
+                    <div className='col-lg-6 col-md-6'>
                         {deliveryData.map((item) => (
 
                             <div key={item.id} className="delivery-right-section">
